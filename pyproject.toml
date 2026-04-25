@@ -1,0 +1,10 @@
+[project]
+name = "hks"
+version = "0.1.0"
+description = "HKS Demo"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "networkx>=3.6.1",
+    "tqdm>=4.67.3",
+]
