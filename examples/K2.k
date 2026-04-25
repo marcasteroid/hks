@@ -5,7 +5,7 @@ entry: send
 exit: ok
 
 label:
-    send:
+    send: # Set "send: ack" to get Result = True
     wait:
     ack: ack
     timeout: timeout
